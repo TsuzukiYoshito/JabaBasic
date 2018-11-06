@@ -34,44 +34,64 @@ public class PTra04_05 {
 			// 下記の命令を実行すると変数cpuHandに、0以上、変数3未満の数字がランダムで代入されます
 			int cpuHand = new java.util.Random().nextInt(3);
 
-			//---------------------ここから本題-----------------------
+			// ---------------------ここから本題-----------------------
 			/*
-			 * 以下のプログラムでは、まだ未完成です。
-			 * ★ 残りのプログラムを追記して、じゃんけんゲームを完成させてください
+			 * 以下のプログラムでは、まだ未完成です。 ★ 残りのプログラムを追記して、じゃんけんゲームを完成させてください
 			 *
-			 * ●じゃんけんに、勝った場合はプログラムを終了します
-			 * ●あいこ、又は負けた場合は、勝つまでプログラムが終わりません
+			 * ●じゃんけんに、勝った場合はプログラムを終了します ●あいこ、又は負けた場合は、勝つまでプログラムが終わりません
 			 *
 			 * ※ プログラムは何行書いても良いです
 			 */
 			if (cpuHand == 0) {
 				System.out.println("グー！");
-				
-			}else if(0==myHand) {System.out.println("あいこ"); 
-				continue;
-			}else if(1==myHand) {System.out.println("負け");
-				continue;
-               }else System.out.println("勝ち");
-			    break;
 
-			} else if (cpuHand == 1) {
-				System.out.println("チョキ！！");
-
-
-
-			} else {
-				System.out.println("パー！！");
-              
-				
-				
-				
-				
-				
-				
-
-
+				if (0 == myHand) {
+					System.out.println("あいこ");
+					continue;
+				}
+				if (1 == myHand) {
+					System.out.println("負け");
+					continue;
+				}
+				if (2 == myHand) {
+					System.out.println("勝ち");
+					winFlg = true;;
+				}
 			}
 
+			if (cpuHand == 1) {
+				System.out.println("チョキ！");
+
+				if (0 == myHand) {
+					System.out.println("勝ち");
+					break;
+				}
+				if (1 == myHand) {
+					System.out.println("負け");
+					continue;
+				}
+				if (2 == myHand) {
+					System.out.println("負け");
+					continue;
+				}
+			}
+
+			if (cpuHand == 2) {
+				System.out.println("パー！");
+
+				if (0 == myHand) {
+					System.out.println("負け");
+					continue;
+				}
+				if (1 == myHand) {
+					System.out.println("勝ち");
+					break;
+				}
+				if (2 == myHand) {
+					System.out.println("負け");
+					continue;
+				}
+			}
 		}
 	}
 }
