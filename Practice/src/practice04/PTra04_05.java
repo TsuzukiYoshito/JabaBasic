@@ -55,7 +55,7 @@ public class PTra04_05 {
 				}
 				if (2 == myHand) {
 					System.out.println("勝ち");
-					winFlg = true;;
+					break;
 				}
 			}
 
