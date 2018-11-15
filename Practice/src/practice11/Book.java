@@ -29,7 +29,12 @@ public class Book {
 		this.price = price;
 		this.pageSize = pageSize;
 		this.publication = publication;
-	}
+		
+		
+			
+			
+		}
+	
 
 	/** 本のタイトル */
 	String title;
