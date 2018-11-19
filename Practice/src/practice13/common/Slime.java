@@ -7,5 +7,9 @@ public class Slime extends practice13.common.Character {
      
      
 
-}
-}
+     
+     
+     
+     
+}		
+	}
