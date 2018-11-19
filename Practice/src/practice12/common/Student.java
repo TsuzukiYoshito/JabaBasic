@@ -13,7 +13,7 @@ package practice12.common;
  */
 public class Student {
 	/** 受講生ID */
-	private int studentIdid;
+	private int studentId;
 
 	/** 受講生氏名 */
 	private String studentName;
@@ -37,12 +37,13 @@ public class Student {
 
 
 public int getstudentId() {
-	return studentIdid;
+	return studentId;
 }
 
 public void setstudentId(String studentId) {
-int studentIdid=Integer.parseInt(studentId);
-
+     
+	int studentIdid=Integer.parseInt(studentId);
+this.studentId=studentIdid;
 }
 
 
