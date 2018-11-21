@@ -4,6 +4,7 @@
  *------------------------------------------------------------
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
+
 package practice13.ptra13;
 
 public class PTra13_08 {
@@ -17,5 +18,6 @@ public class PTra13_08 {
 	 * メソッド
 	 * 		各フィールドのアクセサ
 	 */
+
 
 }
