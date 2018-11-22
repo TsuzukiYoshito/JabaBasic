@@ -21,12 +21,14 @@ public class Employee extends Person{
 		public void setdepartmentCnt(int departmentCnt) {
 			this.departmentCnt = departmentCnt;
 		}
+     
+		
+		
 
 
 
+       }
 
-
-}
 
 
 
