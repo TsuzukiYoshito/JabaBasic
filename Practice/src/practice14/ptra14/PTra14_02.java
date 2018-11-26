@@ -6,6 +6,8 @@
  */
 package practice14.ptra14;
 
+import practice14.common.Course;
+
 public class PTra14_02 {
 
 	/*
@@ -19,5 +21,24 @@ public class PTra14_02 {
 	 * 		正規化
 	 * 		SQL応用
 	 */
+	public static String[] curriculum= {"DB基礎","SQL基礎","正規化","SQL応用"};
+
+	public class JavaCourse implements Course{
+
+
+		public String getCourseName () {
+               return "【Eラーニング】DB基礎";
+		}
+
+
+		public String[] getCourseUnit() {
+              return curriculum;
+
+
+
+		}
+
 
 }
+}
+

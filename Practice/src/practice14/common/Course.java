@@ -8,6 +8,7 @@ package practice14.common;
 
 public interface Course {
 	String PREFIX = "【Eラーニング】";
+	
 
 	/**
 	 * コースの名称を取得します。
@@ -15,9 +16,6 @@ public interface Course {
 	 * @return	単元の名称
 	 */
 	String getCourseName();
-
-
-
 
 
 
