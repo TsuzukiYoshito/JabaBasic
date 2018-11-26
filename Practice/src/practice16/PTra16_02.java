@@ -29,7 +29,7 @@ public class PTra16_02 {
 		Double d1=new Double(d);
 		Character c1=new Character(c);
 		Boolean b1=new Boolean(b);
-
+        Long l1=new Long(l);
 
 
 
