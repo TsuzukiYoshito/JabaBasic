@@ -16,5 +16,51 @@ public class PTra17_04 {
 		 * ※ Thread.sleep を使用すること
 		 */
 
+		 try {
+
+
+	            System.out.print("ス");
+	            Thread.sleep(1000);
+	            System.out.print("ッ");
+	            Thread.sleep(1000);
+	            System.out.print("キ");
+	            Thread.sleep(1000);
+	            System.out.print("リ");
+	            Thread.sleep(1000);
+                System.out.print("わ");
+                Thread.sleep(1000);
+                System.out.print("か");
+                Thread.sleep(1000);
+                System.out.print("る");
+                Thread.sleep(1000);
+                System.out.print("J");
+                Thread.sleep(1000);
+                System.out.print("a");
+                Thread.sleep(1000);
+                System.out.print("v");
+                Thread.sleep(1000);
+                System.out.print("a");
+                Thread.sleep(1000);
+                System.out.print("入");
+                Thread.sleep(1000);
+                System.out.print("門");
+                Thread.sleep(1000);
+
+
+	        } catch(InterruptedException e){
+	            e.printStackTrace();
+	        }
+	    }
+
+
+
+
+
+
+
+
+
+
+
 	}
-}
+

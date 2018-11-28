@@ -6,6 +6,8 @@
  */
 package practice17.ptra17;
 
+import java.io.IOException;
+
 import practice17.common.ThrowExceptionUtil;
 
 public class PTra17_02 {
@@ -16,8 +18,9 @@ public class PTra17_02 {
 			System.out.println("例外が発生しました");
 		}
 	}
-
-	public static void dispInput() {
+//この下は、上のクラスで呼び出されているメソッドの内容なので、既にtry-catch文でクリアされているよね。
+	//下はthrows IOExceptionを入力して、処理すると求められている課題を解決できる。
+	public static void dispInput() throws IOException{
 
 		System.out.println("文字を入力してください");
 
@@ -27,6 +30,8 @@ public class PTra17_02 {
 		 */
 		String line = ThrowExceptionUtil.inputValue();
 
+
 		System.out.println(line);
+
 	}
 }
