@@ -11,7 +11,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import entity.Player;
+import practice18.entity.Player;
 
 public class PTra18_02 {
 
@@ -44,16 +44,21 @@ public class PTra18_02 {
 
 
 	        		//ここでplayerインスタンスを作ること
-	        		entity.Player player1=new entity.Player();
-
-	        		for(int i=0;i<scanner.nextLine().length();i++) {
-                 String[]box=new String[i];
+	        		Player player1=new Player();
 
 
-	        		String box[i]=scanner.nextLine();
+	        		String box1= scanner.nextLine();
+	        		String[] box2 = box1.split(",", 0);
 
 
-	        		player1.toString(box[i]);
+
+	        		player1.setposition(box2[0]);
+	        		player1.setname(box2[1]);
+                   player1.setcountry(box2[2]);
+	        		player1.setteam(box2[3]);
+
+
+
 	        		 array.add(player1);
 
 
@@ -70,5 +75,8 @@ public class PTra18_02 {
 
 	        }
 		}
-}
+
+
+	}
+
 

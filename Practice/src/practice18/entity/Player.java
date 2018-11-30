@@ -45,16 +45,10 @@ public class Player {
 	 public String toString() {
 
 
-		 String Getposition=getposition();
-		 String Getname=getname();
-		 String Getcountry=getcountry();
-		 String Getteam=getteam();
-
-
-		 String[] GEtposition=Getposition.split(",", 0);
-		 String[] GEtname=Getname.split(",", 0);
-		 String[] GEcountry=Getcountry.split(",", 0);
-		 String[] GEtteam=Getteam.split(",", 0);
+		 String position=getposition();
+		 String name=getname();
+		 String country=getcountry();
+		 String team=getteam();
 
 		 return position + "," + name + ","+country +","+ team;
 
