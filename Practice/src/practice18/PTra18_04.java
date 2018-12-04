@@ -59,7 +59,7 @@ public class PTra18_04 {
 		List<Player> set2 = new ArrayList<>();
 		List<Player> set3 = new ArrayList<>();
 
-		for (int i = 0; i < array.size(); i++) {
+		for (int i = 0; i <array.size(); i++) {
 			if (array.get(i).getposition().equals("GK")) {
 				set.add(array.get(i));
 			}
@@ -72,7 +72,7 @@ public class PTra18_04 {
 			}
 		}
 
-		for (int j = 0; j < array.size(); j++) {
+		for (int j = 0; j <array.size(); j++) {
 			if (array.get(j).getposition().equals("MF")) {
 				set2.add(array.get(j));
 
@@ -93,19 +93,19 @@ public class PTra18_04 {
 
 
 
-		for(int l=0;l<1;l=l++){
+		for(int l=0;l<=0;l++){
             System.out.println(set.get(l));
 
 		}
 
-		for(int l=0;l<4;l=l++){
+		for(int l=0;l<=3;l++){
             System.out.println(set1.get(l));
 
 		}
-		for(int l=0;l<4;l=l++){
+		for(int l=0;l<=3;l++){
             System.out.println(set2.get(l));
 		}
-		for(int l=0;l<2;l=l++){
+		for(int l=0;l<=1;l++){
             System.out.println(set3.get(l));
 
 		}
